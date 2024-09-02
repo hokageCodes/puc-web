@@ -1,0 +1,88 @@
+/* General styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: #fff; /* Ensure background is white */
+  padding: 0 20px; /* Add some padding for better spacing */
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo {
+  width: 95px;
+  height: 75px;
+  max-height: 100%;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.nav-item {
+  margin-left: 3rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  font-size: 20px;
+  font-weight: 700;
+  color: #01553d;
+  text-decoration: none; /* Ensure links are not underlined */
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  color: black;
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 768px) {
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 80px;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    z-index: 1000;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .nav-item {
+    margin: 1.5rem 0;
+  }
+
+  .hamburger {
+    display: block;
+    margin-right: 20px;
+    z-index: 1001;
+  }
+
+  .logo {
+    margin-left: 0;
+    width: 80px; /* Ensure logo stays on the left */
+    height: 60px;
+  }
+
+  .nav-logo {
+    position: static; /* Ensure logo stays on the left */
+  }
+}
