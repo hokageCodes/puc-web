@@ -10,7 +10,7 @@ export default function SplitScreenCareersPage() {
             At PUC, we recruit and retain legal professionals with a strong academic background and the ability to solve complex issues and provide sound legal advice to clients. We are structured to allow our lawyers to define their career paths within the ambit of advocacy and transactional practice. This helps our lawyers develop specialized skills in preferred practice areas.
           </p>
           <p className="text-lg text-gray-700 mb-8">
-            Our reputation for unparalleled service delivery is attributable to our recruitment, development, and training of persons with brilliant academic antecedents and a variety of relevant skills and interests. These persons embody PUC's values and vision, possess the character, and nurture the desire to surpass the challenges presented by a demanding practice.
+            Our reputation for unparalleled service delivery is attributable to our recruitment, development, and training of persons with brilliant academic antecedents and a variety of relevant skills and interests. These persons embody PUC&#39;s values and vision, possess the character, and nurture the desire to surpass the challenges presented by a demanding practice.
           </p>
           <p className="text-lg text-gray-700 mb-8">
             We encourage continuous learning for both personal and professional development by organizing in-house trainings and sponsoring professional training courses and higher degree programs. PUC offers equal opportunities to all persons, regardless of race, gender, and ethnicity.

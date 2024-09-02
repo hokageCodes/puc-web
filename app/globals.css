@@ -55,3 +55,21 @@
 .mission:hover .flex-about, .vision:hover .flex-about {
   opacity: 1;
 }
+
+
+/* VisionMission.css */
+
+.vision-parallax-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/path-to-your-background-image.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* This creates the parallax effect */
+  background-repeat: no-repeat;
+  z-index: -1; /* Ensure it stays behind the content */
+  will-change: transform; /* Optimize for performance */
+}
